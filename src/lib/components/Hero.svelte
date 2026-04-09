@@ -5,13 +5,12 @@
 <section class="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-slate-50 py-20">
 	<div class="container mx-auto px-6 relative z-10 text-center">
 		<div in:fly={{ y: 30, duration: 800 }} class="max-w-4xl mx-auto">
-			<h1 class="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-slate-900 mb-8 leading-tight">
+			<h1 class="text-5xl sm:text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter text-slate-900 mb-4 md:mb-8 leading-tight">
 				We Move Goods<br />
 				<span class="text-red-600">From China</span>
 			</h1>
-			<p in:fade={{ delay: 300, duration: 1000 }} class="hidden md:block text-lg md:text-xl text-slate-500 mb-10 max-w-2xl mx-auto font-light">
-				Premium sourcing and logistics architecture for international businesses.
-				We bridge the gap between Chinese manufacturing and global markets.
+			<p in:fade={{ delay: 300, duration: 1000 }} class="text-sm sm:text-base md:text-lg text-slate-500 mb-6 md:mb-10 max-w-xl mx-auto">
+				Premium sourcing and logistics for international businesses.
 			</p>
 			<div in:fly={{ y: 20, delay: 400, duration: 800 }} class="flex flex-col sm:flex-row gap-4 justify-center mt-10">
 				<a href="#quote" class="px-6 sm:px-8 py-4 bg-slate-900 text-white rounded-full font-medium hover:bg-red-600 transition-all duration-300 transform hover:scale-105">
