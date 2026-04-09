@@ -15,6 +15,9 @@ const config = {
 		}),
 		alias: {
 			$lib: './src/lib'
+		},
+		paths: {
+			base: '/waimao-site'
 		}
 	}
 };
