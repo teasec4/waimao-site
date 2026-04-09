@@ -37,7 +37,7 @@
 					<div class="flex items-center justify-between mb-8">
 						<span class="text-6xl font-black text-white/5 tracking-tighter">0{i + 1}</span>
 						<div class="w-12 h-12 rounded-xl bg-red-600/20 flex items-center justify-center group-hover:bg-red-600 transition-colors duration-300">
-							<svelte:component this={step.icon} size={24} class="text-red-500 group-hover:text-white transition-colors duration-300" />
+							<step.icon size={24} class="text-red-500 group-hover:text-white transition-colors duration-300" />
 						</div>
 					</div>
 					<h3 class="text-2xl font-bold mb-3">{step.title}</h3>
@@ -73,7 +73,7 @@
 						<!-- Content -->
 						<div class="flex-1 pt-1">
 							<div class="flex items-center gap-3 mb-2">
-								<svelte:component this={step.icon} size={18} class="text-red-500" />
+								<step.icon size={18} class="text-red-500" />
 								<h3 class="text-lg font-bold">{step.title}</h3>
 							</div>
 							<p class="text-slate-400 text-sm">{step.desc}</p>
