@@ -1,22 +1,21 @@
-<script lang="ts">
-	import { Share2, Globe, Mail } from 'lucide-svelte';
-</script>
-
-<footer class="py-12 w-full bg-white border-t border-slate-100">
+<footer class="py-12 w-full bg-slate-50">
 	<div class="container mx-auto px-6">
-		<div class="flex flex-col md:flex-row justify-between items-center gap-8">
-			<div class="text-xl font-bold tracking-tighter text-slate-900">
+		<div class="flex flex-col md:flex-row justify-between items-center gap-6 text-center">
+			<div class="text-lg font-bold tracking-tighter text-slate-900">
 				WAIMAO<span class="text-red-600">.</span>
 			</div>
 			
-			<div class="flex gap-6 items-center text-slate-400">
-				<a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors"><Globe size={20} /></a>
-				<a href="https://github.com" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 transition-colors"><Share2 size={20} /></a>
-				<a href="mailto:info@waimao.com" class="hover:text-slate-900 transition-colors"><Mail size={20} /></a>
+			<div class="flex flex-col sm:flex-row gap-4 sm:gap-8 text-sm text-slate-500">
+				<a href="mailto:info@waimao.com" class="hover:text-red-600 transition-colors">
+					info@waimao.com
+				</a>
+				<a href="https://t.me/your_bot" target="_blank" rel="noopener noreferrer" class="hover:text-red-600 transition-colors">
+					@telegram
+				</a>
 			</div>
 
-			<div class="text-sm text-slate-400 font-light">
-				© {new Date().getFullYear()} Waimao Logistics. All rights reserved.
+			<div class="text-sm text-slate-400">
+				© {new Date().getFullYear()} Waimao Logistics
 			</div>
 		</div>
 	</div>

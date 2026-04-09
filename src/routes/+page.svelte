@@ -12,7 +12,7 @@
 	<Navbar scrollY={$scrollY} />
 	<Hero />
 	<LogisticsScene />
-	<ProcessTimeline scrollY={$scrollY} />
+	<ProcessTimeline />
 	<QuoteForm />
 	<Footer />
 </div>
